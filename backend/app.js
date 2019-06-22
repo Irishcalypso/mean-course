@@ -12,7 +12,7 @@ app.use('/api/posts',(req, res, next) => {
     {
       id: 'jgft',
       title:'second server-side post',
-      content:'again this is coming for the server'
+      content:'again coming for the server'
     }
   ];
   res.status(200).json({
